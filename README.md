@@ -1,0 +1,1 @@
+## a custom image classification dataset featuring five classes: dog, cow, cat, lamb, and zebra, each with 100 images sourced from the internet or captured using phone. Develop a classification model to classify these classes.
