@@ -86,7 +86,3 @@ This demo showcases the model classifying images and its training progress.
 	1.	Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks.
 	2.	TensorFlow Documentation: Image Classification Guide
 
-📩 Contact
-
-For any queries, feel free to reach out:
-✉️ tausib.abrar@northsouth.edu
