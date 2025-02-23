@@ -1,11 +1,12 @@
 # 🏆 Custom Image Classification Model for Animal Recognition  
 :dog, cow, cat, lamb, and zebra, each with 100 images sourced from the internet or captured using phone. Develop a classification model to classify these classes
+
 **Project Group No.:** 1  
 **Group Members:**  
 - **Tausib Abrar** (2121446642)  
 - **Fahim Muntashir** (2021183642)  
--**Md Abul Bashar Nirob**(2022198042)
--**Muhammad Omar Mahin Jinnat**(2012826642)
+- **Md Abul Bashar Nirob** (2022198042)
+- **Muhammad Omar Mahin Jinnat** (2012826642)
 ---
 
 
