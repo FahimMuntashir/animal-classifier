@@ -1,6 +1,5 @@
-## a custom image classification dataset featuring five classes: dog, cow, cat, lamb, and zebra, each with 100 images sourced from the internet or captured using phone. Develop a classification model to classify these classes.
 # 🏆 Custom Image Classification Model for Animal Recognition  
-
+:dog, cow, cat, lamb, and zebra, each with 100 images sourced from the internet or captured using phone. Develop a classification model to classify these classes
 **Project Group No.:** 1  
 **Group Members:**  
 - **Tausib Abrar** (2121446642)  
@@ -45,7 +44,6 @@ The model is a **Convolutional Neural Network (CNN)** designed for multi-class c
 ## 🚀 How to Run the Code  
 Follow these steps to run the project:  
 
-### **🔹 Clone the Repository**  
 ```bash
-git clone 
-cd custom-image-classification
+git clone [
+](https://github.com/FahimMuntashir/animal-classifier.git)cd custom-image-classification
