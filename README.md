@@ -76,13 +76,6 @@ python evaluate.py
 
 This demo showcases the model classifying images and its training progress.
 
-📝 GitHub Repo Walkthrough (For Presentation)
-
-During the presentation, you must show:
-✅ GitHub Repository Home Page → Overview & well-written README.md.
-✅ Commit History → Proof of continuous progress.
-✅ Code Walkthrough → Explain train.py, evaluate.py, and preprocess.py.
-✅ Dataset Folder → Explain dataset structure.
 
 📢 Future Work
 	•	Experiment with deeper models (EfficientNet, MobileNet).
