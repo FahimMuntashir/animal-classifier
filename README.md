@@ -44,6 +44,6 @@ The model is a **Convolutional Neural Network (CNN)** designed for multi-class c
 ## 🚀 How to Run the Code  
 Follow these steps to run the project:  
 
-```bash
-git clone [
-](https://github.com/FahimMuntashir/animal-classifier.git)cd custom-image-classification
+git clone : (https://github.com/FahimMuntashir/animal-classifier.git)
+cd custom-image-classification
+
