@@ -26,6 +26,12 @@ This project consists of two main components:
 - 🎨 Modern and intuitive UI
 - 🔄 Support for multiple image formats (PNG, JPG, JPEG, GIF)
 
+## 🎥 Demo
+
+![Animal Classifier Demo](demo.gif)
+
+_Watch how the Animal Classifier works in action!_
+
 ## 🛠️ Technical Stack
 
 ### Backend
