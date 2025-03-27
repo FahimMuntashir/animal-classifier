@@ -1,88 +1,177 @@
-# 🏆 Custom Image Classification Model for Animal Recognition  
-:dog, cow, cat, lamb, and zebra, each with 100 images sourced from the internet or captured using phone. Develop a classification model to classify these classes
+# 🏆 Animal Classifier Web Application
+
+A web-based application for classifying images of animals using deep learning. The application can classify images into five categories: dog, cow, cat, lamb, and zebra.
 
 **Project Group No.:** 1  
-**Group Members:**  
-- **Tausib Abrar** (2121446642)  
-- **Fahim Muntashir** (2021183642)  
+**Group Members:**
+
+- **Fahim Muntashir** (2021183642)
 - **Md Abul Bashar Nirob** (2022198042)
+- **Tausib Abrar** (2121446642)
 - **Muhammad Omar Mahin Jinnat** (2012826642)
----
 
+## 📌 Project Overview
 
-## 📌 Project Overview  
-This project aims to develop a **custom image classification dataset** featuring **five animal classes**:  
-🐶 **Dog** | 🐄 **Cow** | 🐱 **Cat** | 🐑 **Lamb** | 🦓 **Zebra**  
+This project consists of two main components:
 
-We collected **100 images per class** from online sources and personal captures, processed them, and developed a **CNN model** to classify these animals with an accuracy target of **90%+**.
+1. A deep learning model trained to classify animal images
+2. A web application that provides a user-friendly interface for image classification
 
----
+### Features
 
-## 📂 Dataset Details  
-- **Total Images:** **500** (100 per class).  
-- **Sources:** Google Images, Unsplash, personal phone captures.  
-- **Preprocessing Applied:**  
-  - **Resized** → Standardized to **224×224** pixels.  
-  - **Normalized** → Scaled pixel values to **[0,1]**.  
-  - **Augmented** → Applied **rotation, flipping, cropping** to improve model generalization.  
+- 🖼️ Drag-and-drop image upload
+- 📱 Responsive design for all devices
+- ⚡ Real-time image classification
+- 📊 Confidence score display
+- 🎨 Modern and intuitive UI
+- 🔄 Support for multiple image formats (PNG, JPG, JPEG, GIF)
 
----
+## 🛠️ Technical Stack
 
-## ⚙️ Model Architecture & Tools  
-The model is a **Convolutional Neural Network (CNN)** designed for multi-class classification.  
+### Backend
 
-### **🔧 Libraries Used:**  
-- **TensorFlow/Keras** → Model Training  
-- **OpenCV** → Image Preprocessing  
-- **NumPy & Pandas** → Data Handling  
+- **Python 3.x**
+- **Flask** - Web framework
+- **TensorFlow/Keras** - Deep learning framework
+- **Pillow** - Image processing
 
-### **🔍 Model Development Process:**  
-1. **Simple CNN Model:** Trained with **500 images** (initial accuracy ~85%).  
-2. **Hyperparameter Tuning:** Optimizing **learning rate, batch size, epochs**.  
-3. **Transfer Learning (Next Step):** Testing with **pre-trained models** (VGG16, ResNet) for better performance.
+### Frontend
 
----
+- **HTML5**
+- **CSS3** with custom styling
+- **JavaScript** (Vanilla)
+- **Bootstrap 5** - UI framework
+- **Font Awesome** - Icons
 
-## 🚀 How to Run the Code  
-Follow these steps to run the project:  
+## 📂 Project Structure
 
-### **🔹 Clone the Repository**  
+```
+animal-classifier/
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── uploads/
+├── templates/
+│   └── index.html
+├── images/
+│   ├── cat/
+│   ├── cow/
+│   ├── dog/
+│   ├── lamb/
+│   └── zebra/
+├── app.py
+├── preprocess.py
+├── train.py
+├── predict.py
+├── requirements.txt
+└── README.md
+```
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+
+- Python 3.x
+- pip (Python package manager)
+- Virtual environment (recommended)
+
+### Installation Steps
+
+1. **Clone the repository**
+
 ```bash
-git clone : (https://github.com/FahimMuntashir/animal-classifier.git)
-cd custom-image-classification
+git clone https://github.com/FahimMuntashir/animal-classifier.git
+cd animal-classifier
+```
 
-🔹 Install Dependencies
+2. **Create and activate virtual environment**
 
+```bash
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+
+# On macOS/Linux
+python -m venv venv
+source venv/bin/activate
+```
+
+3. **Install dependencies**
+
+```bash
 pip install -r requirements.txt
+```
 
-🔹 Train the Model
+4. **Train the model** (if not already trained)
 
+```bash
 python train.py
+```
 
-🔹 Evaluate the Model
+5. **Run the web application**
 
-python evaluate.py
+```bash
+python app.py
+```
 
-📊 Results & Evaluation
-	•	Initial CNN Model Accuracy: 85%
-	•	Planned Enhancements:
-	•	Use Transfer Learning (VGG16, ResNet)
-	•	Further tuning of hyperparameters
-	•	Increase dataset size for better generalization
+6. **Access the application**
 
-🎥 Demo Video
+- Open your web browser
+- Go to `http://localhost:5000`
 
-📌 Watch the One-Minute Demo Here 
+## 💻 Using the Application
 
-This demo showcases the model classifying images and its training progress.
+1. **Upload an Image**
 
+   - Drag and drop an image into the upload zone
+   - Or click the upload zone to select an image
 
-📢 Future Work
-	•	Experiment with deeper models (EfficientNet, MobileNet).
-	•	Optimize preprocessing techniques to improve classification accuracy.
-	•	Deploy the model as a web or mobile app for real-time classification.
+2. **Classify the Image**
 
-📖 References
-	1.	Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet Classification with Deep Convolutional Neural Networks.
-	2.	TensorFlow Documentation: Image Classification Guide
+   - Click the "Classify Image" button
+   - Wait for the prediction to be processed
 
+3. **View Results**
+   - The predicted animal class will be displayed
+   - The confidence score will be shown
+   - You can upload another image to try again
+
+## 🎯 Model Performance
+
+- **Accuracy Target:** 90%+
+- **Classes Supported:** 5 (dog, cow, cat, lamb, zebra)
+- **Model Architecture:** MobileNetV2 (Transfer Learning)
+- **Training Data:** 100 images per class (500 total)
+
+## 🔧 Development
+
+### Adding New Features
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+### Customizing the UI
+
+- Modify `static/css/style.css` for styling changes
+- Edit `templates/index.html` for layout changes
+- Update `static/js/main.js` for functionality changes
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Support
+
+For support, please open an issue in the GitHub repository or contact the project maintainers.
+
+---
+
+Made with ❤️ by Group 1
