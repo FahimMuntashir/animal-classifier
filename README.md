@@ -32,7 +32,29 @@ This project consists of two main components:
 
 _Watch how the Animal Classifier works in action!_
 
-## 🛠️ Technical Stack
+## 🚀 Running the Project
+
+### Local Setup
+
+Follow the installation steps below to run the project locally.
+
+### Cloud Platforms
+
+The project can also be run on cloud platforms:
+
+#### Google Colab
+
+- Access free GPU resources
+- Run the web application using ngrok
+- See [colab_kaggle_setup.md](colab_kaggle_setup.md) for detailed instructions
+
+#### Kaggle
+
+- Use Kaggle's GPU resources
+- Deploy the web application
+- See [colab_kaggle_setup.md](colab_kaggle_setup.md) for detailed instructions
+
+## ��️ Technical Stack
 
 ### Backend
 
