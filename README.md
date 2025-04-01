@@ -10,7 +10,7 @@ A web-based application for classifying images of animals using deep learning. T
 - **Tausib Abrar** (2121446642)
 - **Muhammad Omar Mahin Jinnat** (2012826642)
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 This project consists of two main components:
 
