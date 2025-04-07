@@ -200,6 +200,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 For support, please open an issue in the GitHub repository or contact the project maintainers.
 
----
+----
 
 Made with ❤️ by Group 1
